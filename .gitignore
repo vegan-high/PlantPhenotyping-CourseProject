@@ -1,3 +1,5 @@
 seg-env/
-datasets/
+datasets/*
 models/
+
+**/*venv*/
