@@ -44,9 +44,8 @@
 <p align="center"><img src="./files/example_basil.png" width=400/></p>
 <p align="center">*Базилик, день*</p>
 
-<p align="center"><img src="./files/example_tomato.png" width=400/>
-
-Томат Микротом, день</p>
+<p align="center"><img src="./files/example_tomato.png" width=400/></p>
+<p align="center"><i>Томат Микротом, день</i></p>
 
 <p align="center"><img src="./files/example_radish.png" width=400/></p>
 <p style="text-align: center; font-style: italic;">Редис, ночь</p>
