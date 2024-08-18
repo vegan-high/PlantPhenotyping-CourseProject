@@ -36,23 +36,24 @@
 Продолжительсноть съемки: 2 недели
 
 Количество вариантов в каждом эксперименте: 4
+
 **Итого**: ~ 20000 изображений на одну культуру в одном эксперименте.
 
 ### Примеры изображений
 
-<p align="center"><img src="./files/example_basil.png" width=300/></p>
-<p style="text-align: center; font-style: italic;">Базилик, день</p>
+<p align="center"><img src="./files/example_basil.png" width=400/></p>
+<center>*Базилик, день*</center>
 
-<p align="center"><img src="./files/example_tomato.png" width=300/></p>
+<p align="center"><img src="./files/example_tomato.png" width=400/></p>
 <p style="text-align: center; font-style: italic;">Томат Микротом, день</p>
 
-<p align="center"><img src="./files/example_radish.png" width=300/></p>
+<p align="center"><img src="./files/example_radish.png" width=400/></p>
 <p style="text-align: center; font-style: italic;">Редис, ночь</p>
 
-<p align="center"><img src="./files/example_pak_choy_start.png" width=300/></p>
+<p align="center"><img src="./files/example_pak_choy_start.png" width=400/></p>
 <p style="text-align: center; font-style: italic;">Бок-чой, начало наблюдений</p>
 
-<p align="center"><img src="./files/example_pak_choy_end.png" width=300/></p>
+<p align="center"><img src="./files/example_pak_choy_end.png" width=400/></p>
 <p style="text-align: center; font-style: italic;">Бок-чой, конец наблюдений</p>
 
 
