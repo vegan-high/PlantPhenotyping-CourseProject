@@ -42,10 +42,11 @@
 ### Примеры изображений
 
 <p align="center"><img src="./files/example_basil.png" width=400/></p>
-<center>*Базилик, день*</center>
+<p align="center">*Базилик, день*</p>
 
-<p align="center"><img src="./files/example_tomato.png" width=400/></p>
-<p style="text-align: center; font-style: italic;">Томат Микротом, день</p>
+<p align="center"><img src="./files/example_tomato.png" width=400/>
+
+Томат Микротом, день</p>
 
 <p align="center"><img src="./files/example_radish.png" width=400/></p>
 <p style="text-align: center; font-style: italic;">Редис, ночь</p>
