@@ -42,19 +42,19 @@
 ### Примеры изображений
 
 <p align="center"><img src="./files/example_basil.png" width=400/></p>
-<p align="center">*Базилик, день*</p>
+<p align="center"><i>Базилик, день</i></p>
 
 <p align="center"><img src="./files/example_tomato.png" width=400/></p>
 <p align="center"><i>Томат Микротом, день</i></p>
 
 <p align="center"><img src="./files/example_radish.png" width=400/></p>
-<p style="text-align: center; font-style: italic;">Редис, ночь</p>
+<p align="center"><i>Редис, ночь</i></p>
 
 <p align="center"><img src="./files/example_pak_choy_start.png" width=400/></p>
-<p style="text-align: center; font-style: italic;">Бок-чой, начало наблюдений</p>
+<p align="center"><i>Бок-чой, начало наблюдений</i></p>
 
 <p align="center"><img src="./files/example_pak_choy_end.png" width=400/></p>
-<p style="text-align: center; font-style: italic;">Бок-чой, конец наблюдений</p>
+<p align="center"><i>Бок-чой, конец наблюдений</i></p>
 
 
 
@@ -69,12 +69,12 @@
 *Обрабатывается **только центральный горшок**, он специально помечается, чтобы в течении эксперимента его не передвигали и не поворачивали, и вообще не трогали.*
 
 <p align="center"><img src="./files/segmentation_diy_tool_ver1.png" width=500/></p>
-<p style="text-align: center; font-style: italic;">Интерфейс для сегментации. Есть две группы фильтров, для ночных снимком (фильтрация по яркости), и для дневных (фильтрация по цвету). Если попадается что-то лишнее (отсвечивают края горшка например), применяются патчи (красный квадрат на изображении).</p>
+<p align="center"><i>Интерфейс для сегментации. Есть две группы фильтров, для ночных снимков (фильтрация по яркости), и для дневных (фильтрация по цвету). Если попадается что-то лишнее (отсвечивают края горшка например), применяются патчи (красный квадрат на изображении).</i></p>
 
 Площади полученных масок заносятся в базу данных, по результатам строятся графики.
 
 <p align="center"><img src="./files/example_timelapse_with_plot.png" width=300/></p>
-<p style="text-align: center; font-style: italic;">Пример результатов обработки</p>
+<p align="center"><i>Пример результатов обработки</i></p>
 
 # Цели
 

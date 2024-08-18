@@ -31,20 +31,20 @@
 
 - **Encoder**: resnet34
 
-> [!NOTE] Использование аугментаций
-> Аугментация данных проводиться не будет, потому что в дз по аугментациям исследование показало, что в данном датасете они только мешают, что связано со спецификой датасета: вид сверху (то есть флипы не нужны), день и ночь, разные культуры, в разных стадиях роста.
+> [!NOTE]
+> **Аугментация** данных проводиться не будет, потому что в дз по аугментациям исследование показало, что в данном датасете они только мешают, что связано со спецификой датасета: вид сверху (то есть флипы не нужны), день и ночь, разные культуры, в разных стадиях роста.
 > [Cсылка на Colab](https://colab.research.google.com/drive/1F0qO9lGNvwWmUm9sMSGRuX6KIKFFlhEM?usp=sharing)
 
 
 <p align="center"><img src="./files/augmentation_summary_table.png"/></p>
-<p style="text-align: center; font-style: italic;">Лучшие результаты - без трансформаций</p>
+<p align="center"><i>Лучшие результаты - без трансформаций</i></p>
 
 ### 3. Обучение и результаты
 
 Обучение в теч. 25 эпох дало следующие результаты:
 
 <p align="center"><img src="./files/resnet34_256_semantic_segmentation_loss_iou.png"/></p>
-<p style="text-align: center; font-style: italic;">IoU ~95%, весьма неплохо</p>
+<p align="center"><i>IoU ~95%, весьма неплохо</i></p>
 
 
 ### 4. Визуальная оценка на новых данных
@@ -52,9 +52,9 @@
 На **таких же культурах** нейросеть дает отличный результат
 
 <p align="center"><img src="./files/beauty_overlay_mask_1.png"/></p>
-<p style="text-align: center; font-style: italic;">Руккола</p>
+<p align="center"><i>Руккола</i></p>
 <p align="center"><img src="./files/beauty_overlay_mask_2.png"/></p>
-<p style="text-align: center; font-style: italic;">Томат</p>
+<p align="center"><i>Томат</i></p>
 
 
 
@@ -62,17 +62,14 @@
 Очевидно, что нейросеть сохранила те же проблемы, что были в разметке. Например, плохо сегментируются тонкие стебли ночью.
 
 <p align="center"><img src="./files/bad_stems_night.png"/></p>
-<p style="text-align: center; font-style: italic;"></p>
-
-
 
 На некоторых новых культурах сеть работает хорошо
 <p align="center"><img src="./files/radish_false_detect_stick.png"/></p>
-<p style="text-align: center; font-style: italic;">Редис. Почему-то сегментируется белая метка</p>
+<p align="center"><i>Редис. Почему-то сегментируется белая метка</i></p>
 
 На некоторых предсказуемо не работает
 <p align="center"><img src="./files/basil_rose.png"/></p>
-<p style="text-align: center; font-style: italic;">Базилик Розе. На дневных снимках не определяется из-за своего цвета</p>
+<p align="center"><i>Базилик Розе. На дневных снимках не определяется из-за своего цвета</i></p>
 
 
 
