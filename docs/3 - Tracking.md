@@ -1,4 +1,4 @@
-# Instance Segmentation
+# Tracking
 
 ### План 
 1. [Выбор метода трекинга и стратегия применения](#1-выбор-метода-трекинга-и-стратегия-применения)
@@ -21,3 +21,7 @@
 
 <p align="center"><img src="./files/tracking.png" width=400/></p>
 <p style="text-align: center; font-style: italic;">Одни и те же растения имеют один и тот же ID и отмечены одним и тем же цветом</p>
+
+
+<p align="center"><img src="./files/instance_tracking_plot.png" width=400/></p>
+<p style="text-align: center; font-style: italic;">По трекингу строятся таймламсы с графиками</p>
